@@ -29,3 +29,10 @@
 .bg_blue{
     background-color: rgb(4, 4, 22);
 }
+.bg_blue_wind{
+    background-color: rgb(7, 7, 71);
+}
+.footer{
+    height: 100px;
+    line-height: 100px;
+}
