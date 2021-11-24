@@ -42,3 +42,41 @@
 input{
     border: none;
 }
+.hr-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+  }
+
+.hr-custom::before,
+.hr-custom::after {
+  content: "";
+  width: 20%;
+  max-width: 200px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: white;
+}
+.hr-custom.hr-dark {
+    color: #2C3E50;
+  }
+  .hr-custom.hr-dark::before,
+.hr-custom.hr-dark::after {
+  background-color: #2C3E50;
+}
+
+.social{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5px; 
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.va{
+    vertical-align: text-bottom;
+}
