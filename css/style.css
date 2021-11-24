@@ -39,3 +39,6 @@
 .fa-star{
     vertical-align: -webkit-baseline-middle;
 }
+input{
+    border: none;
+}
